@@ -1,92 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                        <a href="#contact">contact</a>
-                    </li>
-            
-                    <li>
-                            <a href="#Blog">Blog</a>
-                        </li>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+        <header>
+               	 <nav class="blue">
+                        <div class="nav-wrapper">
+                                <a href="#!" class="brand-logo"><i class="material-icons ">person</i>Lang lang</a>
+                                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+                                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                                  <li><a href="#home">Home</a></li>
+                                  <li><a href="#about">About</a></li>
+                                  <li><a href="#contact">Contact</a></li>
+                                </ul>
+                              </div>
+
                     
-            </ul>
-        </nav>
+                </nav>
 
-        <div id="mobile">
-            <a href="#" ><i class="fa fa-bars fa-2x"></i></a>
-            <div id="mobile-menu">
-                <ul>
-                        <li>
-                                <a href="#about">About</a>
-                            </li>
-                            <li>
-                                    <a href="#contact">contact</a>
-                                </li>
+                <ul class="sidenav" id="mobile-demo">
+                        <li><a href="#home">Home</a></li>
+                                  <li><a href="#about">About</a></li>
+                                  <li><a href="#contact">Contact</a></li>
+                      </ul>
+ 
+        </header>
+
+        <main>
+
+          <!--CAOROUSEL BEGINS  -->
+          <div class="carousel">
+              <a class="carousel-item" href="#one!"><img src="image/1.jpg"></a>
+              <a class="carousel-item" href="#two!"><img src="image/2.png"></a>
+              <a class="carousel-item" href="#three!"><img src="image/haha.jpg"></a>
+              <a class="carousel-item" href="#four!"><img src="image/para.jpg"></a>
+             </div>
+
+
+                            
+                <div id="about">
+                    <h2>About</h2>
+                    <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aliquid officiis repudiandae accusantium perferendis optio aspernatur! Dolorum nam laborum soluta sunt quia incidunt debitis. Voluptatum in accusamus eaque beatae commodi laudantium iusto, autem debitis vero quo amet, cumque alias porro voluptates harum exercitationem minima assumenda ullam dicta quidem aliquam ex tempore. Ea officia facere necessitatibus hic distinctio similique aliquam suscipit?</p>
+                </div>
+
+                <div class="parallax-container">
+                    <div class="parallax">
+                        <img src="image/para.jpg" style="opacity: 0.4;"alt="nothing man">
+                    </div>
+                </div>
+
+
+                <div class="parallax-container">
+                        <div class="parallax">
+                            <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error perferendis, eos dicta, doloribus laborum nemo voluptate, eius repellendus rem cumque ipsa! Sunt, neque cupiditate? Mollitia ipsum nesciunt ducimus voluptas alias quaerat nemo maiores aut, error animi magnam soluta numquam blanditiis illum nam pariatur. Eveniet, accusantium sapiente consequuntur unde dolorem laboriosam ipsam officia aspernatur ipsa temporibus! Voluptatum illum voluptatem aperiam at!</p>
+                                     
+                   
+                               
+                                                   
+                        </div>
+                       
+                    </div>
+
+
+
+                    <!--Contact page begins-->
+                    
+                    <h3 id="contact">Contact</h3>
+ 
+                    <div class="row">
+                      <div class="col s12 m9 l10">
+                        <div id="Avash" class="section scrollspy">
+                          <h4>Avash Jha</h4>
+                          <p>Qualifications </p>
+                          <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur vero voluptatibus voluptas odio delectus adipisci quaerat, dolorem ullam deleniti. Cumque.</P>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequuntur repellendus sit quos sed accusantium in reprehenderit laudantium voluptate fuga voluptates, quibusdam tenetur impedit odio quasi nostrum similique eaque iste incidunt aut fugit pariatur minima modi consectetur! Ut beatae hic voluptatem rerum minus magnam repudiandae perspiciatis neque non facere! Vitae.</p>
+                        </div>
+                  
+                        <div id="sumendra" class="section scrollspy">
+                          <h4>Sumendra Manandhar</h4>
+                          <p>Qualifications </p>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem alias id porro quasi explicabo. Quos, culpa dolorem? Qui sed fuga corrupti placeat dolor pariatur autem illum vitae voluptas numquam architecto ipsum voluptatem saepe, quos tempora? Sint sed quisquam ut corporis iusto pariatur accusantium aliquam soluta, dolorem impedit tenetur alias deleniti quia animi adipisci eos voluptatibus consequatur nesciunt vero aut quibusdam aspernatur reiciendis officiis omnis? Labore totam quo possimus quam modi, dolore velit odio minus saepe nam asperiores eligendi recusandae maiores accusantium ullam consequatur expedita corrupti animi blanditiis vitae reiciendis delectus ad debitis voluptatum. Dolorem suscipit nisi minima excepturi, vero laboriosam.</p>
                         
-                                <li>
-                                        <a href="#Blog">Blog</a>
-                                    </li>
-                            </ul>
+                         </div>
+                  
+                        <div id="shardool" class="section scrollspy">
+                          <h4>Shardool Shrestha</h4>
+                          <p>Qualifications </p>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, deserunt ratione exercitationem nobis ullam harum aspernatur nesciunt, iste ipsa mollitia nihil, quo molestiae nostrum. Commodi maxime ratione magnam sapiente cumque exercitationem earum voluptate at animi architecto dolor autem nisi possimus velit cum ex unde ipsa, fugit ea provident vitae impedit repellat doloremque. Provident consequatur repellendus blanditiis, adipisci optio sapiente minus soluta veritatis eum qui praesentium, autem expedita fuga ratione! Enim perspiciatis a sit nihil ratione voluptatum ducimus non quia pariatur recusandae! Ipsam voluptas laborum minus, cum sapiente debitis dignissimos dolorem officiis ex ut vero magni saepe eos numquam eligendi quasi?</p>
+                        
+                        </div>
+                      </div>
+                      <div class="col hide-on-small-only m3 l2">
+                        <ul class="section table-of-contents">
+                          <li><a href="#avash">Avash</a></li>
+                          <li><a href="#sumendra">Sumendra</a></li>
+                          <li><a href="#shardool">Shardool</a></li>
+                        </ul>
+                      </div>
+                    </div>
 
-            </div>
-        
 
-        </div>
-    </header>
+
+
+
+                  
+
+
+
+
 
     
-    <main>
-            <div class="container">
-        <h1>Welcome</h1>
-        <p>Coming soon.......</p>
-            
-                <hr>
-                <h1>About's</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore deleniti repudiandae officia facilis nulla natus sed quae saepe laborum voluptatibus?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nihil architecto sequi necessitatibus, numquam quae, itaque nesciunt quasi nulla non temporibus tenetur dolore ducimus doloribus unde perspiciatis eveniet saepe fugiat expedita incidunt explicabo dignissimos quidem ipsa? Facere quae magnam blanditiis!</p>
-            </div>
+    
 
-        <div><h1 style="font-size:3em; color:brown; padding:20px;">Contact</h1></div>
-        <section class="box" id="contact">
-            <div class="box1">
-                    
-                    <a href="https://www.facebook.com/findavash" target="_blank"><i class="fa fa-facebook fa-5x"></i></a>
-            </div>
-            <div class="box1">
-                    <a href="https://avashjha.github.io" target="_blank"><i class="fa fa-github fa-5x"></i></a>
-            
-            </div>
 
-                <div class="box1">
-                        <a href="https://www.instagram/instamaavash" target="_blank"><i class="fa fa-instagram fa-5x"></i></a>
-            
+
+
+        </main>
+
+
+        <footer class="page-footer blue">
+                <div class="container">
+                  <div class="row">
+                    <div class="col l6 s12">
+                      <h5 class="white-text">About Us!</h5>
+                      <p class="grey-text text-lighten-4">You can contact us at <a  class="grey-text text-lighten-4"href="mailto:avashlovebeaches@gmail.com" target="_blank">here</a>
+                      </p>
+                      </div>
+                    <div class="col l4 offset-l2 s12">
+                      <h5 class="white-text">Menu</h5>
+                      <ul>
+                        <li><a class="grey-text text-lighten-3" href="#home">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#contact">Contact</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#about">About</a></li>
+                     
+                      </ul>
                     </div>
+                  </div>
+                </div>
+                <div class="footer-copyright">
+                  <div class="container">
+                  © 2018 All right reserved!
+                 
+                  </div>
+                </div>
+              </footer>
+           
         
-        </section>
-    </main>
 
+      <!--JavaScript at end of body for optimized loading-->
+      <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
 
-    <footer>
-
-        <h3>Copyright Avash 2018</h3>
-        <a href="mailto:avashjhaymail@gmail.com" target="_blank" ><i class="fa fa-book fa-4x"></i></a>
-            
-        
-    </footer>
-
-</body>
-</html>
+  <script src="js/app.js"></script>
+    </body>
+  </html>
